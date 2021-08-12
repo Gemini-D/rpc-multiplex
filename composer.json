@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/rpc-multiplex",
+    "name": "gemini/rpc-multiplex",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -19,6 +19,9 @@
         "hyperf/utils": "~2.2.0",
         "multiplex/socket": "^0.4"
     },
+    "replace": {
+        "hyperf/rpc-multiplex": "2.2.*"
+    },
     "autoload": {
         "psr-4": {
             "Hyperf\\RpcMultiplex\\": "src/"
@@ -37,7 +40,7 @@
             "config": "Hyperf\\RpcMultiplex\\ConfigProvider"
         },
         "branch-alias": {
-            "dev-master": "2.2-dev"
+            "dev-main": "2.2-dev"
         }
     }
 }
